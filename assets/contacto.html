@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="bicicleta.svg" width="70" alt="logo bicicleta">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./busca.html">Busca un mecanico</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./contacto.html">Contactanos</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h2>Contactanos</h2>
+        <br>
+        <form>
+            <fieldset>
+                <legend >Formulario de contacto</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Introduce tu nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="tipo">Tipo de bicicleta</label>
+                    <select name="tipo" id="">
+                        <option value="none">Elije</option>
+                        <option value="ruta">Bicicleta ruta</option>
+                        <option value="Mtb">Bicicleta MTB</option>
+                        <option value="cross">Bicicleta Cross</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <div>Niño/a
+                        <input type="radio" name="usuario" value="niño">
+                    </div>
+                    <div>Mujer
+                        <input type="radio" name="usuario" value="mujer">
+                    </div>
+                    <div>Hombre
+                        <input type="radio" name="usuario" value="hombre">
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Email</label>
+                    <input type="email" name="correo" placeholder="tu-correo@beetlebikes.com">
+                </div>
+                <br>
+                <div>
+                    <p>Dejanos tus comentarios</p>
+                    <textarea name="comentarios" id="" cols="30" rows="5" placeholder="Comentarios"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="submit" value="Enviar">
+                </div>
+                
+            </fieldset>
+
+
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
