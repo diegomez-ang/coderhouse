@@ -1,0 +1,19 @@
+.desafio1{
+    color: orange;
+}
+
+.title{
+    color: #FF4040;
+}
+ul li a{
+    color: #2a9d8f;
+}
+tr td ul li{
+    color: peru;
+}
+tr td ol li{
+    color: red;
+}
+tr td{
+    color: #e76f51;
+}
