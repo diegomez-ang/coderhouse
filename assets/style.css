@@ -1,12 +1,20 @@
+body{
+    font-family: 'Roboto', sans-serif, Arial;
+}
 .desafio1{
     color: orange;
 }
 
 .title{
     color: #FF4040;
+    font-size: 30px;
+    text-align: center;
 }
 ul li a{
     color: #2a9d8f;
+    text-decoration: none;
+    list-style-type: none;
+
 }
 tr td ul li{
     color: peru;
@@ -16,4 +24,7 @@ tr td ol li{
 }
 tr td{
     color: #e76f51;
+}
+header{
+    background-color: rgb(31, 40, 121);
 }
