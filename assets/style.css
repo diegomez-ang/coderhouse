@@ -2,29 +2,86 @@ body{
     font-family: 'Roboto', sans-serif, Arial;
 }
 .desafio1{
-    color: orange;
+    color:white;
 }
 
 .title{
-    color: #FF4040;
+    color: white;
     font-size: 30px;
     text-align: center;
 }
 ul li a{
     color: #2a9d8f;
     text-decoration: none;
+}
+ul li{
     list-style-type: none;
-
-}
-tr td ul li{
-    color: peru;
-}
-tr td ol li{
-    color: red;
 }
 tr td{
-    color: #e76f51;
+    color: white;
 }
-header{
-    background-color: rgb(31, 40, 121);
+tr td ul li{
+    color:white;
 }
+tr td ol li{
+    color: white;
+}
+tr td{
+    color: white;
+}
+.tabla{
+    text-align: center;
+    margin-left: 30%;
+}
+header, footer{
+    background-color: rgb(31, 40, 121);    
+}
+nav{
+    display: inline-block;
+}
+h2{
+    font-size: 40px;
+}
+.intro{
+    text-align: center;
+}
+.main--logo{
+    font-size: 60px;
+    padding: 0px;
+    margin: 0;
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    color: #B3365B;
+
+}
+.main--eslogan{
+    font-size: 30px;
+    word-spacing:30px;
+    color: #B3365B;
+}
+.logo--centro{
+    width: 30%;
+    padding: 10px;    
+}
+
+.main--eslogan{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    background-color: #091C32;
+    margin: 0%;
+    padding: 0%;
+}
+.derecha, main{
+    padding: 0%;
+    margin: 0;
+    background-color: #B3365B;
+}
+.fab{
+    color: white;
+}
+i{
+    color: white;
+}
+
