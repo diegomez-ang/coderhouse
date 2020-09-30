@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
 body{
     font-family: 'Roboto', sans-serif, Arial;
 }
@@ -36,8 +41,14 @@ tr td{
 header, footer{
     background-color: rgb(31, 40, 121);    
 }
-nav{
+nav ul li{
     display: inline-block;
+    text-align: center;
+}
+.redes li{
+    display: inline-block;
+    text-align: ;
+    border:10px;
 }
 h2{
     font-size: 40px;
@@ -72,16 +83,23 @@ h2{
     background-color: #091C32;
     margin: 0%;
     padding: 0%;
+    width: 50%;
+    text-align: center;
 }
-.derecha, main{
+.derecha{
     padding: 0%;
     margin: 0;
     background-color: #B3365B;
+    width: 50%;
+    text-align: center;
 }
 .fab{
     color: white;
 }
 i{
     color: white;
+}
+.main{
+    display: inline-block;
 }
 
