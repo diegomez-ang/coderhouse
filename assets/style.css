@@ -43,11 +43,10 @@ header, footer{
 }
 nav ul li{
     display: inline-block;
-    text-align: center;
+    margin-right: 30px;
 }
 .redes li{
     display: inline-block;
-    text-align: ;
     border:10px;
 }
 h2{
@@ -72,12 +71,12 @@ h2{
 }
 .logo--centro{
     width: 30%;
-    padding: 10px;    
+    margin-top: 50px;
 }
 
-.main--eslogan{
-    padding: 0;
-    margin: 0;
+.main--eslogan{    
+    padding-bottom:30px;
+    
 }
 .logo{
     background-color: #091C32;
@@ -102,4 +101,13 @@ i{
 .main{
     display: inline-block;
 }
+.menu{
+    text-align: end;
+    padding: 20px;
+}
 
+.main--logo:hover{
+    color: #ffd113;
+    cursor: pointer;
+
+}
