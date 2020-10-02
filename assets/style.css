@@ -105,9 +105,23 @@ i{
     text-align: end;
     padding: 20px;
 }
-
 .main--logo:hover{
     color: #ffd113;
     cursor: pointer;
+}
 
+.submenu{
+    /* display: inline-block; */
+    position: relative;
+    display: none;
+
+}
+.menu--opcion:hover{
+    position: relative;
+    color: #ffd113;    
+    border-bottom: 2px solid #B3365B;
+    display: block;
+}
+.submenu:hover{
+    display: block;
 }
