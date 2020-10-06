@@ -6,6 +6,15 @@
 body{
     font-family: 'Roboto', sans-serif, Arial;
 }
+header{
+    background-color: #091C32;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav{
+    width: 50%;
+}
 .menu{
     
     background-color: #B3365B;
@@ -14,14 +23,6 @@ body{
     align-items: center;
     list-style: none;
     height: 50px;
-    width: 673.7px;
-}
-
-.cont-menu{
-    background-color: #091C32;
-    display: flex;
-    justify-content: flex-end; 
-    
 }
 a{
     text-decoration: none;
