@@ -6,54 +6,63 @@
 body{
     font-family: 'Roboto', sans-serif, Arial;
 }
-.desafio1{
-    color:white;
+.menu{
+    
+    background-color: #B3365B;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    width: 673.7px;
 }
 
-.title{
-    color: white;
-    font-size: 30px;
-    text-align: center;
+.cont-menu{
+    background-color: #091C32;
+    display: flex;
+    justify-content: flex-end; 
+    
 }
-ul li a{
-    color: #2a9d8f;
+a{
     text-decoration: none;
 }
-ul li{
-    list-style-type: none;
+.main{
+    background-color: blue;
+    display: flex;
 }
-tr td{
-    color: white;
+.logo{
+    background-color: #091C32;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
-tr td ul li{
-    color:white;
+.logo--centro{
+    width: 40%;
 }
-tr td ol li{
-    color: white;
+.derecha{
+    background-color: #B3365B;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-tr td{
-    color: white;
-}
-.tabla{
-    text-align: center;
-    margin-left: 30%;
-}
-header, footer{
-    background-color: rgb(31, 40, 121);    
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 30px;
-}
-.redes li{
-    display: inline-block;
-    border:10px;
-}
-h2{
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+    width: 50%;
     font-size: 40px;
+    padding: 20px;
 }
-.intro{
-    text-align: center;
+header{
+    width: 100%;
 }
 .main--logo{
     font-size: 60px;
@@ -62,66 +71,50 @@ h2{
     font-family: 'Audiowide', cursive;
     text-transform: uppercase;
     color: #B3365B;
-
 }
 .main--eslogan{
     font-size: 30px;
-    word-spacing:30px;
+    word-spacing:20px;
     color: #B3365B;
 }
-.logo--centro{
-    width: 30%;
-    margin-top: 50px;
+.intro{
+    width: 90%;
+    padding: 30px;
+}
+.title{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: ;
+    color:#091C32; 
 }
 
-.main--eslogan{    
-    padding-bottom:30px;
-    
-}
-.logo{
-    background-color: #091C32;
-    margin: 0%;
-    padding: 0%;
-    width: 50%;
-    text-align: center;
-}
-.derecha{
-    padding: 0%;
-    margin: 0;
-    background-color: #B3365B;
-    width: 50%;
-    text-align: center;
+.superior{
+    width: 100%;
+    background-color: white;
 }
 .fab{
-    color: white;
-}
-i{
-    color: white;
-}
-.main{
-    display: inline-block;
-}
-.menu{
-    text-align: end;
-    padding: 20px;
-}
-.main--logo:hover{
-    color: #ffd113;
-    cursor: pointer;
+    color: #FFD113;
 }
 
-.submenu{
-    /* display: inline-block; */
-    position: relative;
-    display: none;
-
+.fa-twitter:hover{
+    color: #00A7E7;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.fa-instagram:hover{
+    background-image: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf,#4f5bd5);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-youtube:hover{
+    color: #FF0000;
+}
+.menu--opcion{
+    color: #091C32 ;
+    font-size: 17px;
 }
 .menu--opcion:hover{
-    position: relative;
-    color: #ffd113;    
-    border-bottom: 2px solid #B3365B;
-    display: block;
-}
-.submenu:hover{
-    display: block;
+    color: #FFD113;    
 }
