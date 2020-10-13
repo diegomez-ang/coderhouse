@@ -8,8 +8,9 @@
     <title>Blog</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header--main">
+        <a href="../index.html"><i class="fas fa-wrench"></i></a></i>
+        <nav class="menu--others">
             <ul class="menu">
                 <li><a class="menu--opcion" href="../index.html">Home</a></li>
                 <li><a class="menu--opcion" href="./nosotros.html">Nosotros</a></li>
@@ -24,26 +25,34 @@
         <h2 class="title">blog</h2>
     </main>
     <footer>
-        <div>
-            <ul>
-                <li><i class="fas fa-envelope"></i>  Contacto@beetlebikes.com</li>
-                <li><i class="fas fa-phone-square-alt"></i> + 57 3144269127</li>
-                <li><i class="fas fa-map"></i> Cra 145A # 12 - 53</li>
-                <li><p>Bogotá Colombia</p></li>
-            </ul>            
-        </div>
-        <div>
-            <h3 class="title">Mapa del sitio</h3>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Busca un mecanico</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Shop</a></li>
-            </ul>
-        </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15907.446925416714!2d-74.1592274!3d4.61874525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1600632341918!5m2!1ses!2sco" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>            
+        <div class="grid">
+            <div class="contacto">
+                <h3 class="title">Escribenos</h3>
+                <ul class="contacto--list">
+                    <li><i class="fas fa-envelope"></i> Contacto@beetlebikes.com</li>
+                    <li><i class="fas fa-phone-square-alt"></i> + 57 3144269127</li>
+                    <li><i class="fas fa-map"></i> Cra 145A # 12 - 53</li>
+                    <li>
+                        <p>Bogotá Colombia</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="mapaSitio">
+                <h3 class="title">Mapa del sitio</h3>
+                <ul class="mapaSitio--list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Busca un mecanico</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+            <div class="mapagoogle">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15907.446925416714!2d-74.1592274!3d4.61874525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1600632341918!5m2!1ses!2sco"
+                    width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
         </div>
     </footer>
 </body>
