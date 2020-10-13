@@ -9,9 +9,10 @@ body{
 header{
     background-color: #091C32;
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: space-between;
+    width: 100%;    
 }
+
 nav{
     width: 50%;
 }
@@ -62,9 +63,7 @@ a{
     font-size: 40px;
     padding: 20px;
 }
-header{
-    width: 100%;
-}
+
 .main--logo{
     font-size: 60px;
     padding: 0px;
@@ -118,4 +117,52 @@ header{
 }
 .menu--opcion:hover{
     color: #FFD113;    
+}
+
+/* --------- menu en las otras paginas */
+
+.fa-wrench{
+    color: #FFD113;
+    font-size: 40px;
+    padding: 5px;
+    }
+/* --------- footer ------- */
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #B3365B;
+}
+.contacto{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mapaSitio{
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mapagoogle{
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mapaSitio--list, .contacto--list{
+    list-style: none;
+}
+/* -------- shop ------- */
+.grid--container{
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.ruta{
+    width: 50%;
+}
+.shop{
+    padding: 5% 0% 2% 5%;
+    font-size: 50px;
 }
