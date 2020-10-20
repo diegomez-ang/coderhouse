@@ -95,21 +95,29 @@ a{
 .fab{
     color: #FFD113;
 }
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-youtube{
+    transition:transform 1s;
+}
 
 .fa-twitter:hover{
     color: #00A7E7;
+    transform:scale(2,2);
 }
 .fa-facebook-f:hover{
     color: #3b5998;
+    transform:scale(2,2);
 }
 .fa-instagram:hover{
     background-image: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf,#4f5bd5);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
+    transform:scale(2,2);
 }
 .fa-youtube:hover{
     color: #FF0000;
+    transform:scale(2,2);
+    
 }
 .menu--opcion{
     color: #091C32 ;
@@ -125,10 +133,11 @@ a{
     color: #FFD113;
     font-size: 40px;
     padding: 5px;
+    transition: transform 2s;
     }
 
 .fa-wrench:hover{
-    co;
+  transform: rotateZ(90deg);
 }
 /* --------- footer ------- */
 .grid{
@@ -165,8 +174,12 @@ a{
 }
 .ruta{
     width: 50%;
+    transition:transform 1s;
 }
 .shop{
     padding: 5% 0% 2% 5%;
     font-size: 50px;
+}
+.ruta:hover{
+    transform:scale(2,2);
 }
